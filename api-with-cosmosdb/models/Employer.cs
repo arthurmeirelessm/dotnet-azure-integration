@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace api_with_cosmosdb.models
 {
-    public class Costumers
+    public class Employer : BaseModel
     {
-        public string? Id { get; set; }
         public string? CompanyName { get; set; }
 
         public string? ContactName { get; set; }
@@ -24,9 +23,7 @@ namespace api_with_cosmosdb.models
 
         public string? Country { get; set; }
 
-        public string? Phone { get; set; }
-
-        public List<Order> Orders { get; set; }
+        public string? EmployerPhone { get; set; }
 
     }
 }
