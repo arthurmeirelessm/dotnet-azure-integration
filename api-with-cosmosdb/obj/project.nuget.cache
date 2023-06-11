@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "zeBHDSqVPTqUbboXjwa0vZ2+3MYPoSgi2XR6v21ATT3QgUq/3sK/iC71FCJeH3/WB0/YjEwjcmMbCdaf77Fo7w==",
-  "success": true,
+  "dgSpecHash": "iL5FBmvIKquCo56Rd3cpnfVTWZOyh80CeSCjbrwFp037ADCeNmfqTpE/Hlb3z1Z/9M4rBQt56zQqv/7T+5Vtbg==",
+  "success": false,
   "projectFilePath": "c:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.EntityFramework. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.EntityFramework",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.EntityFramework.Cosmos. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.EntityFramework.Cosmos",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

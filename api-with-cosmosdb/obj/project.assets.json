@@ -5,7 +5,10 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Microsoft.EntityFramework >= 6.0.4",
+      "Microsoft.EntityFramework.Cosmos >= 6.0.4"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\arthur.mendes\\.nuget\\packages\\": {}
@@ -13,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
+      "projectUniqueName": "c:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
       "projectName": "api-with-cosmosdb",
-      "projectPath": "C:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
+      "projectPath": "c:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
       "packagesPath": "C:\\Users\\arthur.mendes\\.nuget\\packages\\",
-      "outputPath": "C:\\api-dotnet-azure\\api-with-cosmosdb\\obj\\",
+      "outputPath": "c:\\api-dotnet-azure\\api-with-cosmosdb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arthur.mendes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +48,16 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.EntityFramework": {
+            "target": "Package",
+            "version": "[6.0.4, )"
+          },
+          "Microsoft.EntityFramework.Cosmos": {
+            "target": "Package",
+            "version": "[6.0.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -64,5 +77,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.EntityFramework. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.EntityFramework",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.EntityFramework.Cosmos. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.EntityFramework.Cosmos",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

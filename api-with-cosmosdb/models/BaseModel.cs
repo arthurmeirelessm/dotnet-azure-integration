@@ -5,12 +5,10 @@ using System.Threading.Tasks;
 
 namespace api_with_cosmosdb.models
 {
-    public class Employers : BaseModel
+    public class BaseModel
     {
-       public string FirstName { get; set; }
-       public string LastName { get; set; }
+        public int id { get; set; }
 
-        
-        
+        public DateTime createdAt { get; set; }
     }
 }
