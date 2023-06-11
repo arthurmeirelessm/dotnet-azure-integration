@@ -27,7 +27,6 @@ namespace api_with_cosmosdb.Data
         }
 
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // configuration employees
