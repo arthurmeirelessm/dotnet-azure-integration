@@ -5,19 +5,22 @@ using System.Threading.Tasks;
 
 namespace api_with_cosmosdb.models
 {
-    public class Employer : BaseModel
+    public class Employer
     {
-        public string? CompanyName { get; set; }
+        public string? Id { get; set;}
+        public string? FirstName { get; set; }
 
-        public string? ContactName { get; set; }
+        public string? LastName { get; set; }
 
-        public string? ContactTitle { get; set; }
+         public string? Title { get; set; }
+
+        public DateTime? BirthDate { get; set; }
+
+        public DateTime? HireDate { get; set; }
 
         public string? Address { get; set; }
 
         public string? City { get; set; }
-
-        public string? Region { get; set; }
 
         public string? PostalCode { get; set; }
 
