@@ -7,8 +7,8 @@ namespace api_with_cosmosdb.models
 {
     public class BaseModel
     {
-        public int id { get; set; }
-        
-        public DateTime createdAt { get; set; }
+        public int Id { get; set; }
+
+        public DateTime CreatedAt { get; set; }
     }
 }

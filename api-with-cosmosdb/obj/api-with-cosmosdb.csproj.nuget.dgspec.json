@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj": {}
+    "C:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj": {}
   },
   "projects": {
-    "c:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj": {
+    "C:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
+        "projectUniqueName": "C:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
         "projectName": "api-with-cosmosdb",
-        "projectPath": "c:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
+        "projectPath": "C:\\api-dotnet-azure\\api-with-cosmosdb\\api-with-cosmosdb.csproj",
         "packagesPath": "C:\\Users\\arthur.mendes\\.nuget\\packages\\",
-        "outputPath": "c:\\api-dotnet-azure\\api-with-cosmosdb\\obj\\",
+        "outputPath": "C:\\api-dotnet-azure\\api-with-cosmosdb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arthur.mendes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"

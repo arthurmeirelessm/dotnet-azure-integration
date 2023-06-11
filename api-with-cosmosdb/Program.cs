@@ -1,2 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using DotNetEnv;
+
+
+
+DotNetEnv.Env.Load();
+
+
+
+Console.WriteLine(Environment.GetEnvironmentVariable("ACCOUNTENDPOINT"));
+
+
+
