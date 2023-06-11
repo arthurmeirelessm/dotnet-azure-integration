@@ -9,9 +9,11 @@
   </PropertyGroup>
 
 
+  <ItemGroup> 
+  </ItemGroup>
   <ItemGroup>
-   <PackageReference Include="Microsoft.EntityFramework" Version="6.0.4" /> 
-   <PackageReference Include="Microsoft.EntityFramework.Cosmos" Version="6.0.4" /> 
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="7.0.5" />
   </ItemGroup>
 
 </Project>
